@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    "baseUrl": ".",
+    paths: {
+        "@/app/*": ["app/*"]
+    }
+};
 
 module.exports = nextConfig;
